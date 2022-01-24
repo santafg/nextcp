@@ -1,6 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
-// import "./Header.css";
 
 const MobileHeader = () => {
   const [open, setopen] = useState(false);
@@ -21,12 +21,12 @@ const MobileHeader = () => {
               />
             </div>
             <div>
-              <ul>
-                <li className="point">Login</li>
-              </ul>
+              <Link href="/login">
+                <a>Login </a>
+              </Link>
             </div>
           </div>
-          <div>
+          <div className="navIcon">
             <Image
               width="100%"
               height="100%"
@@ -38,10 +38,26 @@ const MobileHeader = () => {
         </div>
         <div className={open ? "sidenav open" : "sidenav"}>
           <ul>
-            <li>About</li>
-            <li>Case Studies</li>
-            <li>Services</li>
-            <li>Blog</li>
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/casestudies">
+                <a>Case Studies</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/services">
+                <a>Services</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
             <li>
               <input type="text" placeholder="Search Here..." />
             </li>

@@ -27,6 +27,10 @@
   margin-right: 3rem;
   cursor: pointer;
 }
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
 .search {
   position: absolute;
   right: 24rem;
@@ -58,19 +62,23 @@
   position: absolute;
   right: 8rem;
   display: flex;
+  align-items: center;
 }
 .login .loginIcon {
   display: flex;
   height: 2rem;
   width: 2rem;
 }
-.login ul {
+.login .loginDiv a {
   margin-left: 1rem;
   /* font-family: Gordita; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
 .navIcon {
   position: absolute;
@@ -91,6 +99,27 @@
   width: 100%;
   /* border: .1rem solid black; */
 }
+.mheader .mnav{
+  display: flex;
+  align-items: center;
+}
+.mheader .logo {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+}
+.mheader .mlogin {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+}
+.mheader .navIcon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  margin-left: 0.5rem;
+}
+
 .sidenav {
   position: absolute;
   height: 0rem;
@@ -112,6 +141,9 @@
   margin: 2rem;
   font-size: 4rem;
   line-height: 4rem;
+}
+.sidenav ul li a {
+  text-decoration: none;
   color: white;
 }
 .sidenav input {
@@ -132,16 +164,21 @@
 .mnav > div {
   margin: 0 1rem;
 }
-.mlogin {
+
+.mlogin .loginIcon {
   display: flex;
+  height: 4rem;
+  width: 4rem;
 }
-.mlogin ul {
+.mlogin div:last-child a {
   margin-left: 1rem;
   /* font-family: Gordita; */
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 3.6rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #000;
 }
 @media only screen and (min-width: 600px) {
   .mheader {

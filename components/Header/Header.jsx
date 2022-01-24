@@ -1,23 +1,43 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-// import "./Header.css";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="logo point">
-        <Image width="100%" height="100%"  src="/images/Logo.png" alt={""} />
+        <Link href="/">
+          <a>
+            <Image width="100%" height="100%" src="/images/Logo.png" alt={""} />
+          </a>
+        </Link>
       </div>
       <div className="menu">
         <ul>
-          <li>About</li>
-          <li>Case Studies</li>
-          <li>Services</li>
-          <li>Blog</li>
+          <li>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/casestudies">
+              <a>Case Studies</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/services">
+              <a>Services</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog">
+              <a>Blog</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="search">
-        <div className="searchIcon" >
+        <div className="searchIcon">
           <Image width="100%" height="100%" src="/images/search.png" alt={""} />
         </div>
         <div>
@@ -33,10 +53,10 @@ const Header = () => {
             alt={""}
           />
         </div>
-        <div>
-          <ul>
-            <li className="point">Login</li>
-          </ul>
+        <div className="loginDiv" >
+          <Link href="/login">
+            <a>Login </a>
+          </Link>
         </div>
       </div>
       <div className="navIcon point">

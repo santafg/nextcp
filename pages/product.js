@@ -1,11 +1,14 @@
+import React from "react";
 import Layout from "../components/Layout/Layout";
 
-export default function Home() {
+const Product = () => {
   return (
     <>
       <Layout>
-        <h1>Home</h1>
+        <h1>Product</h1>
       </Layout>
     </>
   );
-}
+};
+
+export default Product;
