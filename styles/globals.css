@@ -1,0 +1,60 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+.point {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1160px) {
+  html {
+    font-size: 52.2%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 48.2%;
+  }
+}
+@media only screen and (max-width: 890px) {
+  html {
+    font-size: 44.2%;
+  }
+}
+@media only screen and (max-width: 840px) {
+  html {
+    font-size: 40.2%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 36.2%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 32.2%;
+  }
+}
+@media only screen and (max-width: 660px) {
+  html {
+    font-size: 30.2%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 42.2%;
+  }
+}

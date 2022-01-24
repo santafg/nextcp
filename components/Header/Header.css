@@ -1,0 +1,159 @@
+/* Header */
+.header {
+  position: relative;
+  height: 4.2rem;
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  margin-right: 6rem;
+}
+.menu {
+  /* font-family: Gordita; */
+  height: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.85rem;
+  line-height: 2.6rem;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+.search {
+  position: absolute;
+  right: 24rem;
+  width: 32rem;
+  padding: 0.5rem 0;
+  border-bottom: 0.15rem solid black;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.search .searchIcon {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+}
+.search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  /* font-family: Gordita; */
+  margin-left: 1rem;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #a9a9a9;
+}
+.login {
+  position: absolute;
+  right: 8rem;
+  display: flex;
+}
+.login .loginIcon {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+}
+.login ul {
+  margin-left: 1rem;
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+.navIcon {
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+}
+.mheader {
+  position: relative;
+  height: 4.2rem;
+  padding: 4rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: .1rem solid black; */
+}
+.sidenav {
+  position: absolute;
+  height: 0rem;
+  width: 100%;
+  z-index: 1;
+  top: 10rem;
+  left: 0;
+  background-color: rgba(141, 141, 141, 0.385);
+  overflow-y: hidden;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidenav.open {
+  height: 32rem;
+}
+.sidenav ul li {
+  margin: 2rem;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: white;
+}
+.sidenav input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid white;
+}
+.sidenav input::placeholder {
+  color: white;
+}
+.mnav {
+  display: flex;
+}
+.mnav > div {
+  margin: 0 1rem;
+}
+.mlogin {
+  display: flex;
+}
+.mlogin ul {
+  margin-left: 1rem;
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+@media only screen and (min-width: 600px) {
+  .mheader {
+    display: none;
+  }
+  .sidenav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
