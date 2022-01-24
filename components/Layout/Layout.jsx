@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <title>Code Partner</title>
       </Head>
       <Header />
-      <div style={{ minWidth: "80vh" }}>{children}</div>
+      <div style={{ minHeight: "80vh" }}>{children}</div>
       <Footer />
     </>
   );
