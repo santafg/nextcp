@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -16,12 +17,37 @@ const Footer = () => {
         <div className="c2">
           <h3>Links</h3>
           <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About us</li>
-            <li>Careers</li>
-            <li>Press Release</li>
-            <li>Blog</li>
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/services">
+                <a>Services</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a>About us</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/careers">
+                <a>Careers</a>
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/pressrelease">
+                <a>Press Release</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="c3">
@@ -49,7 +75,11 @@ const Footer = () => {
         <div className="fl">
           <ul>
             <li>Privacy & Terms.</li>
-            <li>Contact Us</li>
+            <li>
+              <Link href="/contact">
+                <a>Contact Us</a>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="fc">

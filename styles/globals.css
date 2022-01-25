@@ -18,6 +18,10 @@ ul {
 .point {
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 @media only screen and (max-width: 1160px) {
   html {
     font-size: 52.2%;
