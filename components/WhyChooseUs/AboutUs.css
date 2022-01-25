@@ -1,0 +1,187 @@
+.aboutUs {
+  padding: 10rem 16rem;
+  transition: all 0.5s ease;
+}
+
+.aboutUs .top {
+  display: flex;
+  flex-direction: column;
+  /* border: 0.1rem solid black; */
+}
+.aboutUs .top .tt {
+  /* border: 0.1rem solid black; */
+  margin-left: 6rem;
+}
+
+.aboutUs .top .tt h5 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.27);
+}
+.aboutUs .top .tb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutUs .top .tb > div {
+  margin: 1rem;
+}
+.aboutUs .top .tb .tbl {
+  max-width: 40rem;
+  width: 100%;
+}
+.aboutUs .top .tb .tbl h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+  /* or 122% */
+
+  letter-spacing: -0.01rem;
+
+  color: #090d26;
+}
+
+.aboutUs .top .tr {
+  max-width: 36rem;
+  width: 100%;
+}
+.aboutUs .top .tb .tbr {
+  max-width: 36rem;
+  width: 100%;
+}
+.aboutUs .top .tb .tbr p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3rem;
+  /* or 156% */
+
+  letter-spacing: -0.1rem;
+
+  color: #070707;
+}
+.aboutUs .top .tb .tbr p u {
+  color: skyblue;
+}
+
+.aboutUs .middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem 0;
+  transition: all 0.5s ease;
+}
+.aboutUs .middle > div {
+  max-width: 36rem;
+  width: 100%;
+}
+.aboutUs .middle .ml {
+  position: relative;
+  width: 46rem;
+  height: 32rem;
+}
+
+.aboutUs .middle .mr .up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.aboutUs .middle .mr .down {
+  margin: -3.4rem 0 3rem 0;
+  width: 90%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  height: 6rem;
+}
+.aboutUs .middle .mr .down.hide {
+  margin: -3.4rem 0 3rem 0;
+  opacity: 0;
+  width: 90%;
+  height: 0rem;
+  transition: all 0.5s ease;
+}
+.aboutUs .middle .mr h3 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+
+  color: #000000;
+}
+.aboutUs .middle .mr span {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+
+  color: #000000;
+}
+.aboutUs .middle .mr p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  color: #000000;
+}
+
+.aboutUs .bottom {
+  margin: 6rem 0;
+}
+.aboutUs .bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutUs .bottom ul li h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #000000;
+}
+.aboutUs .bottom ul li p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #929292;
+}
+@media only screen and (max-width: 600px) {
+  .aboutUs {
+    margin: 2rem;
+    padding: 0;
+  }
+  .aboutUs .top {
+    align-items: center;
+    width: 100%;
+  }
+  .aboutUs .top .tb {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .aboutUs .top .tt {
+    margin-left: 0;
+  }
+  .aboutUs .middle {
+    flex-wrap: wrap;
+  }
+}
