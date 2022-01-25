@@ -1,5 +1,6 @@
 import JoinUs from "../components/JoinUs/JoinUs";
 import Layout from "../components/Layout/Layout";
+import OurAchivement from "../components/OurAchivement/OurAchivement";
 import OurNews from "../components/OurNews/OurNews";
 import OurTeam from "../components/OurTeam/OurTeam";
 import Testimonials from "../components/Testimonials/Testimonials";
@@ -12,6 +13,7 @@ export default function Home() {
       <Layout>
         <WhatWeDo />
         <AboutUs />
+        <OurAchivement />
         <OurTeam />
         <Testimonials />
         <OurNews />
