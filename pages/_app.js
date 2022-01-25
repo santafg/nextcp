@@ -7,6 +7,7 @@ import "../components/PlaceHolder/PlaceHolder.css";
 import "../components/WhatWeDo/WhatWeDo.css";
 import "../components/WhyChooseUs/AboutUs.css";
 import "../components/Testimonials/Testimonials.css";
+import "../components/OurTeam/OurTeam.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -1,0 +1,71 @@
+.ourTeam {
+  margin: 10rem 16rem;
+  display: flex;
+  flex-direction: column;
+}
+.ourTeam .top h1 {
+  max-width: 44rem;
+  width: 100%;
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+  /* or 122% */
+
+  letter-spacing: -0.01rem;
+
+  color: #141518;
+}
+.ourTeam .bottom {
+  padding: 6rem 2rem;
+}
+.ourTeam .bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeam .bottom ul li {
+  max-width: 30rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: .5rem;
+}
+.ourTeam .bottom ul li div {
+  margin: 0.4rem 0;
+}
+.ourTeam .bottom ul li .ourteamImg {
+  position: relative;
+  height: 28rem;
+  width: 28rem;
+}
+.ourTeam .bottom ul li h4 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.ourTeam .bottom ul li p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.4rem;
+  color: #575757;
+}
+@media only screen and (max-width: 600px) {
+  .ourTeam {
+    margin: 4rem;
+    padding: 0;
+    align-items: center;
+  }
+  .ourTeam .bottom ul {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
