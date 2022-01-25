@@ -6,10 +6,8 @@
 .aboutUs .top {
   display: flex;
   flex-direction: column;
-  /* border: 0.1rem solid black; */
 }
 .aboutUs .top .tt {
-  /* border: 0.1rem solid black; */
   margin-left: 6rem;
 }
 
