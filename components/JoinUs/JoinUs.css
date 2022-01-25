@@ -1,0 +1,39 @@
+.joinUs {
+    /* height: 501px; */
+    background-color: #090d26;
+    padding: 6rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .joinUs > div {
+    max-width: 40rem;
+    width: 100%;
+    margin: 1rem;
+  }
+  .joinUs .left h1 {
+    /* font-family: Gordita; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  .joinUs .right p {
+      /* font-family: Gordita; */
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2rem;
+      line-height: 3rem;
+  }
+  .joinUs button {
+      padding: 1.6rem 6rem;
+      background-color: white;
+      border-radius: 1rem;
+      outline: none;
+      border: none;
+      margin-top: 2rem;   
+      font-size: 1.6rem;
+      text-align: center;
+  }

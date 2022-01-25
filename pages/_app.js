@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import '../components/Footer/Footer.css'
 import '../components/Header/Header.css'
+import '../components/JoinUs/JoinUs.css'
+import '../components/OurNews/OurNews.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

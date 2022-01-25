@@ -1,0 +1,46 @@
+.ourNews {
+  padding: 4rem 16rem;
+}
+.ourNews > div {
+  margin: 0 0 2rem 0;
+}
+.ourNews div > div {
+  margin: 0.5rem 0;
+}
+.ourNews h4 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 1.875px;
+  text-transform: uppercase;
+  color: #bcbcbc;
+}
+.ourNews h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+}
+.ourNews .cp .cps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ourNews .cp .cps .cpImg,
+.ourNews .bp div .bpImg {
+    width: 16rem;
+    height: 6.4rem;
+    position: relative;
+    margin: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .ourNews {
+    margin: 4rem;
+    padding: 0;
+  }
+}
