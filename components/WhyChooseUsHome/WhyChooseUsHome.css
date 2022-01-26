@@ -1,0 +1,89 @@
+.whyChooseUsHome {
+  margin: 0 12rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.whyChooseUsHome .left {
+  max-width: 44rem;
+  width: 100%;
+  margin-left: 2rem;
+}
+.whyChooseUsHome .left div {
+  margin: 2.8rem 0;
+  width: 100%;
+}
+.whyChooseUsHome .left .videoBtn {
+  position: relative
+  ;
+  width: 5rem;
+  height: 5rem;
+}
+.whyChooseUsHome .left h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
+  /* or 122% */
+
+  letter-spacing: -0.01rem;
+
+  color: #090d26;
+}
+.whyChooseUsHome .left p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  /* or 122% */
+
+  letter-spacing: -0.01rem;
+  color: #292929;
+}
+.whyChooseUsHome .left ul li {
+  display: flex;
+  align-items: center;
+}
+.whyChooseUsHome .left ul li span {
+  margin-right: 1rem;
+}
+
+.whyChooseUsHome .left span p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  letter-spacing: -0.01rem;
+  color: #474747;
+}
+.whyChooseUsHome button {
+  color: white;
+  background: #262626;
+
+  padding: 1rem 3rem;
+  outline: none;
+  border: none;
+}
+.whyChooseUsHome .right {
+  margin-right: -10rem;
+}
+.whyChooseUsHome .right .yladyImg {
+  position: relative;
+  height: 74rem;
+  width: 72rem;
+}
+@media only screen and (max-width: 600px) {
+  .whyChooseUsHome {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 2rem;
+  }
+  .whyChooseUsHome .right {
+    margin-right: 0rem;
+  }
+}

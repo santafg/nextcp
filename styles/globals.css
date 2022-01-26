@@ -18,9 +18,14 @@ ul {
 .point {
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
   color: black;
+}
+.blackBtns {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
 }
 @media only screen and (max-width: 1160px) {
   html {

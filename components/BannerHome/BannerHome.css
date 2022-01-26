@@ -1,0 +1,134 @@
+.bannerhome {
+  position: relative;
+
+  /* padding: 0 4rem 0 12rem; */
+    padding: 10rem 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bannerhome .left {
+  height: 45rem;
+  width: 45rem;
+}
+
+.left .heading {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 6.4rem;
+}
+.left .subtitle {
+  margin: 2rem 0;
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.bannerhome .left div button {
+  padding: 1.6rem 3.2rem;
+  border: 0.2rem solid black;
+  background-color: white;
+}
+.left div p {
+  margin-top: 1.4rem;
+}
+.bannerhome .right{
+    margin-top: -4rem;
+    margin-right: -2rem;
+}
+.bannerhome .right .rightImg {
+  position: relative;
+  height: 50rem;
+  width: 45rem;
+  filter: drop-shadow(6px 6px 33px rgba(0, 0, 0, 0.25));
+}
+
+.bannerhome .outside .number p {
+  position: absolute;
+  left: 5.6rem;
+  bottom: 6rem;
+  transform: rotate(-90deg);
+
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.1rem;
+  letter-spacing: 0.3rem;
+}
+.bannerhome .outside .socialMedia {
+  position: absolute;
+  left: 0;
+  bottom: 56%;
+  transform: rotate(-90deg);
+
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+}
+.socialMedia ul {
+  width: 14rem;
+  display: flex;
+  justify-content: space-around;
+}
+.socialMedia ul li {
+  cursor: pointer;
+}
+
+.bannerhome .outside .support {
+  position: absolute;
+  bottom: 6rem;
+  right: 6rem;
+}
+.bannerhome .outside .support .supportImg {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+}
+.bannerhome .outside .scroll {
+  position: absolute;
+  right: 8.4rem;
+  bottom: 56%;
+}
+.bannerhome .outside .scroll .bblineImg {
+  height: 6rem;
+  width: .3rem;
+  position: relative;
+}
+.bannerhome .outside .scroll p {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -1.6rem;
+  bottom: -2.8rem;
+}
+@media only screen and (max-width: 600px) {
+  .bannerhome {
+    flex-direction: column-reverse;
+    margin: 2rem;
+    margin-top: 8rem;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bannerhome .outside .socialMedia {
+    left: -2rem;
+  }
+  .bannerhome .outside .number p {
+    left: 2rem;
+  }
+  .bannerhome .outside .support{
+      right: 2rem;
+  }
+  .bannerhome .outside .scroll{
+    right: 3rem;
+  }
+}
+@media only screen and (max-width: 396px) {
+  .bannerhome .outside .number p {
+    display: none;
+  }
+}
