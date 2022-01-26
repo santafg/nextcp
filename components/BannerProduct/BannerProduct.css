@@ -1,0 +1,103 @@
+.BannerProduct {
+  padding: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.BannerProduct .left .bannerImg {
+  width: 62rem;
+  height: 54rem;
+
+  background: #c4c4c4;
+}
+.BannerProduct .right {
+  margin-left: 6rem;
+}
+.BannerProduct .right h1 {
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8rem;
+  line-height: 9.2rem;
+  margin: 2rem 0;
+  /* or 110% */
+
+  color: #000000;
+}
+.BannerProduct .right p {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  /* or 175% */
+
+  color: #000000;
+}
+.BannerProduct .right .signin {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #979797;
+  margin-top: 1.4rem;
+}
+.BannerProduct .right .signin b {
+  color: black;
+}
+
+.BannerProduct .right .demoInput {
+  display: flex;
+  background: #f4f4f4;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-top: 4.4rem;
+  width: 72%;
+}
+.BannerProduct .right .demoInput div:first-child {
+  flex: 1;
+}
+.BannerProduct .right .demoInput input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0 1rem;
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: #0b0b0b;
+  width: 90%;
+}
+.BannerProduct .right .demoInput button {
+  background-color: #151515;
+  color: white;
+  font-size: 1.4rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  flex-grow: 1;
+}
+@media only screen and (max-width: 600px) {
+  .BannerProduct {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem;
+  }
+  .BannerProduct .right{
+      margin-left: 0;
+  }
+  .BannerProduct .bannerImg {
+    display: none;
+  }
+  .BannerProduct .right .demoInput {
+    width: 80%;
+  }
+}

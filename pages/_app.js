@@ -13,6 +13,7 @@ import "../components/BannerHome/BannerHome.css";
 import "../components/WhyChooseUsHome/WhyChooseUsHome.css";
 import "../components/OurPortfolio/OurPortfolio.css";
 import "../components/Services/Services.css";
+import "../components/BannerProduct/BannerProduct.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
