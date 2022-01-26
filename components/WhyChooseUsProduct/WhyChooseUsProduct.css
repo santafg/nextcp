@@ -1,0 +1,115 @@
+.WhyChooseUsProduct {
+  padding: 10rem 16rem;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.WhyChooseUsProduct .left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.WhyChooseUsProduct .left h5 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.27);
+}
+.WhyChooseUsProduct .left h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.6rem;
+  line-height: 6rem;
+  /* or 122% */
+
+  letter-spacing: -0.01rem;
+
+  color: #090d26;
+}
+.WhyChooseUsProduct .left p {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  /* or 175% */
+  margin-top: 2.4rem;
+  color: #000000;
+}
+.WhyChooseUsProduct .right {
+  max-width: 42rem;
+  width: 100%;
+}
+.WhyChooseUsProduct .right .up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.WhyChooseUsProduct .right .down {
+  margin: -1.4rem 0 1rem 0;
+  width: 90%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  height: 6rem;
+}
+.WhyChooseUsProduct .right .down.hide {
+  margin: -3.4rem 0 3rem 0;
+  opacity: 0;
+  width: 90%;
+  height: 0rem;
+  transition: all 0.5s ease;
+}
+.WhyChooseUsProduct .right h3 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+
+  color: #000000;
+}
+.WhyChooseUsProduct .right span {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.8rem;
+
+  color: #000000;
+}
+.WhyChooseUsProduct .right p {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .WhyChooseUsProduct {
+    margin: 2rem;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .WhyChooseUsProduct > div {
+    margin: 1rem 0;
+  }
+  .WhyChooseUsProduct .left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 0;
+  }
+}

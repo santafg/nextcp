@@ -5,6 +5,7 @@ import OurNews from "../components/OurNews/OurNews";
 import OurPortfolio from "../components/OurPortfolio/OurPortfolio";
 import Services from "../components/Services/Services";
 import BannerProduct from "../components/BannerProduct/BannerProduct";
+import WhyChooseUsProduct from "../components/WhyChooseUsProduct/WhyChooseUsProduct";
 
 const Product = () => {
   return (
@@ -13,6 +14,7 @@ const Product = () => {
         <BannerProduct />
         <Services />
         <OurPortfolio />
+        <WhyChooseUsProduct />
         <OurNews />
         <PlaceHolder />
       </Layout>

@@ -14,10 +14,10 @@ import "../components/WhyChooseUsHome/WhyChooseUsHome.css";
 import "../components/OurPortfolio/OurPortfolio.css";
 import "../components/Services/Services.css";
 import "../components/BannerProduct/BannerProduct.css";
+import "../components/WhyChooseUsProduct/WhyChooseUsProduct.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
 export default MyApp;
-

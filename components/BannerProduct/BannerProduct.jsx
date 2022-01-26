@@ -26,7 +26,7 @@ const BannerProduct = () => {
             <input type="text" />
           </div>
           <div>
-            <button>Try free demo</button>
+            <button className="point" >Try free demo</button>
           </div>
         </div>
         <div>
