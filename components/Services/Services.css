@@ -1,0 +1,79 @@
+.Services {
+  padding: 10rem 16rem;
+}
+.Services .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem;
+  flex-wrap: wrap;
+}
+.Services .top div:first-child {
+  max-width: 40rem;
+  width: 100%;
+}
+.Services .top h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6.2rem;
+}
+
+.Services .top p {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  cursor: pointer;
+  border-bottom: 0.2rem solid black;
+  margin: 2rem 0;
+  text-align: center;
+}
+.Services .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1rem;
+}
+.Services .bottom div > div {
+  margin: 1.8rem 0;
+}
+.Services .bottom h2 {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  color: #000000;
+}
+.Services .bottom p {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  /* or 217% */
+
+  color: #000000;
+}
+.Services .bottom .detailsDiv {
+  margin: 0.6rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Services {
+    margin: 0;
+    padding: 2rem;
+  }
+  .Services .top {
+    align-items: center;
+    justify-content: center;
+  }
+  .Services .bottom {
+    flex-wrap: wrap;
+    margin: 0 2rem;
+  }
+}

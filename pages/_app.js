@@ -11,6 +11,8 @@ import "../components/OurTeam/OurTeam.css";
 import "../components/OurAchivement/OurAchivement.css";
 import "../components/BannerHome/BannerHome.css";
 import "../components/WhyChooseUsHome/WhyChooseUsHome.css";
+import "../components/OurPortfolio/OurPortfolio.css";
+import "../components/Services/Services.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

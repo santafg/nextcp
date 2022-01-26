@@ -1,0 +1,68 @@
+.ourPortfolio {
+  padding: 16rem;
+}
+.ourPortfolio .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem;
+  flex-wrap: wrap;
+}
+.ourPortfolio .top div:first-child {
+  max-width: 40rem;
+  width: 100%;
+}
+.ourPortfolio .top h1 {
+  /* font-family: Gordita; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6.2rem;
+}
+.ourPortfolio .top button {
+  padding: 1rem 2rem;
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  border-radius: .25rem;
+  cursor: pointer;
+  ;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.ourPortfolio .bottom {
+  /* border: 0.1rem solid black; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ourPortfolio .bottom .portImg {
+  height: 46rem;
+  width: 44rem;
+  background-color: #d8d8d8;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .ourPortfolio{
+        margin: 0;
+        padding: 2rem;
+    }
+    .ourPortfolio .top{
+        align-items: center;
+        justify-content: center;
+    }
+    .ourPortfolio .bottom{
+        align-items: center;
+        justify-content: center;
+    }
+  }
