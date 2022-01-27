@@ -1,0 +1,45 @@
+.ProductPorjectVideo {
+  width: 100%;
+  height: 64rem;
+  position: relative;
+  background: #c4c4c4;
+}
+
+.ProductPorjectVideo .playBtnDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ProductPorjectVideo .projectStatus {
+  position: absolute;
+  bottom: 0;
+  right: 14%;
+  display: flex;
+}
+.ProductPorjectVideo .projectStatus > div {
+  padding: 2rem;
+  width: 16rem;
+  text-align: center;
+}
+.ProductPorjectVideo .projectStatus h1 {
+  font-family: Gordita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 3.6rem;
+
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+.ProductPorjectVideo .projectStatus div:first-child {
+  background-color: white;
+}
+.ProductPorjectVideo .projectStatus div:last-child {
+  color: white;
+  background: linear-gradient(154.02deg, #7e0fd6 -30.24%, #0cbcfc 115.7%);
+}
+.ProductPorjectVideo .projectStatus div:last-child h1 {
+  color: white;
+}
