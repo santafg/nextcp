@@ -19,7 +19,7 @@ const ProductTestimonials = () => {
       </div>
       <div className="dotDiv" >
         {test.map((item, index) => (
-          <div
+          <div key={index}
             onClick={() => setSlideIndex(index + 1)}
             className={slideIndex === index + 1 ? "dot active" : "dot"}
           ></div>
