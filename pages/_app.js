@@ -16,6 +16,7 @@ import "../components/Services/Services.css";
 import "../components/BannerProduct/BannerProduct.css";
 import "../components/WhyChooseUsProduct/WhyChooseUsProduct.css";
 import "../components/ProductProjectVideo/ProductPorjectVideo.css";
+import "../components/ProductTestimonials/ProductTestimonials.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

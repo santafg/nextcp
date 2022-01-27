@@ -7,6 +7,7 @@ import Services from "../components/Services/Services";
 import BannerProduct from "../components/BannerProduct/BannerProduct";
 import WhyChooseUsProduct from "../components/WhyChooseUsProduct/WhyChooseUsProduct";
 import ProductPorjectVideo from "../components/ProductProjectVideo/ProductPorjectVideo";
+import ProductTestimonials from "../components/ProductTestimonials/ProductTestimonials";
 
 const Product = () => {
   return (
@@ -17,6 +18,7 @@ const Product = () => {
         <OurPortfolio />
         <WhyChooseUsProduct />
         <ProductPorjectVideo />
+        <ProductTestimonials />
         <OurNews />
         <PlaceHolder />
       </Layout>
